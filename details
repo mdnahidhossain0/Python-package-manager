@@ -1,1 +1,25 @@
-#1. I am currently  strugling with django logic . Hope soon i will learn it.
+#Django Command
+
+python3 -m venv env    
+       
+source env/bin/activate
+
+pip freeze > requirement.txt
+
+pip install django
+
+django-admin startproject    
+
+python manage.py startapp 
+           
+python manage.py runserver
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+pip install djangorestframework
+
+
