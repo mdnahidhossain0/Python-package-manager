@@ -1,3 +1,11 @@
 pipenv shell
 
 pipenv install django
+
+pipenv uninstall django
+
+pipenv --rm
+
+pipenv update
+
+exit 
