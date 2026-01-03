@@ -1,1 +1,20 @@
+uv init
+uv venv
+source .venv/bin/activate
+ uv add django
+uv remove
+uv sync 
+
+
+ django-admin startproject    
+
+python manage.py startapp 
+           
+python manage.py runserver
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
 
